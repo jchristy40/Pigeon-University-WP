@@ -104,3 +104,4 @@ Stack trace:
   thrown in /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/post.php on line 6595
 [27-Oct-2019 23:36:01 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php on line 19
 [03-Nov-2019 22:19:42 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single.php on line 18
+[07-Nov-2019 02:25:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 29
