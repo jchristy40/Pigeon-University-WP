@@ -105,3 +105,43 @@ Stack trace:
 [27-Oct-2019 23:36:01 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php on line 19
 [03-Nov-2019 22:19:42 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single.php on line 18
 [07-Nov-2019 02:25:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 29
+[09-Nov-2019 00:45:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/update.php on line 160
+[09-Nov-2019 00:45:07 UTC] PHP Stack trace:
+[09-Nov-2019 00:45:07 UTC] PHP   1. {main}() /Users/bird/Local Sites/pigeon-university/app/public/wp-cron.php:0
+[09-Nov-2019 00:45:07 UTC] PHP   2. do_action_ref_array() /Users/bird/Local Sites/pigeon-university/app/public/wp-cron.php:133
+[09-Nov-2019 00:45:07 UTC] PHP   3. WP_Hook->do_action() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 00:45:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 00:45:07 UTC] PHP   5. wp_version_check() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 00:45:07 UTC] PHP   6. trigger_error() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/update.php:160
+[09-Nov-2019 00:45:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/update.php on line 384
+[09-Nov-2019 00:45:07 UTC] PHP Stack trace:
+[09-Nov-2019 00:45:07 UTC] PHP   1. {main}() /Users/bird/Local Sites/pigeon-university/app/public/wp-cron.php:0
+[09-Nov-2019 00:45:07 UTC] PHP   2. do_action_ref_array() /Users/bird/Local Sites/pigeon-university/app/public/wp-cron.php:133
+[09-Nov-2019 00:45:07 UTC] PHP   3. WP_Hook->do_action() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 00:45:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 00:45:07 UTC] PHP   5. wp_update_plugins() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 00:45:07 UTC] PHP   6. trigger_error() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/update.php:384
+[09-Nov-2019 00:45:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/update.php on line 569
+[09-Nov-2019 00:45:07 UTC] PHP Stack trace:
+[09-Nov-2019 00:45:07 UTC] PHP   1. {main}() /Users/bird/Local Sites/pigeon-university/app/public/wp-cron.php:0
+[09-Nov-2019 00:45:07 UTC] PHP   2. do_action_ref_array() /Users/bird/Local Sites/pigeon-university/app/public/wp-cron.php:133
+[09-Nov-2019 00:45:07 UTC] PHP   3. WP_Hook->do_action() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 00:45:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 00:45:07 UTC] PHP   5. wp_update_themes() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 00:45:07 UTC] PHP   6. trigger_error() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/update.php:569
+[09-Nov-2019 01:16:34 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (29/11/2019) at position 0 (2): Unexpected character in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php:29
+Stack trace:
+#0 /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php(29): DateTime->__construct('29/11/2019')
+#1 /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php(78): include('/Users/bird/Loc...')
+#2 /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php(19): require_once('/Users/bird/Loc...')
+#3 /Users/bird/Local Sites/pigeon-university/app/public/index.php(17): require('/Users/bird/Loc...')
+#4 {main}
+  thrown in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 29
+[09-Nov-2019 01:17:05 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (29/11/2019) at position 0 (2): Unexpected character in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php:29
+Stack trace:
+#0 /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php(29): DateTime->__construct('29/11/2019')
+#1 /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php(78): include('/Users/bird/Loc...')
+#2 /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php(19): require_once('/Users/bird/Loc...')
+#3 /Users/bird/Local Sites/pigeon-university/app/public/index.php(17): require('/Users/bird/Loc...')
+#4 {main}
+  thrown in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 29
