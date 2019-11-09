@@ -145,3 +145,4 @@ Stack trace:
 #3 /Users/bird/Local Sites/pigeon-university/app/public/index.php(17): require('/Users/bird/Loc...')
 #4 {main}
   thrown in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 29
+[09-Nov-2019 01:40:09 UTC] PHP Parse error:  syntax error, unexpected ''value'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 30
