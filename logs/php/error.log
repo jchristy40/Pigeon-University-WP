@@ -147,3 +147,9 @@ Stack trace:
   thrown in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 29
 [09-Nov-2019 01:40:09 UTC] PHP Parse error:  syntax error, unexpected ''value'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 30
 [12-Nov-2019 02:05:43 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/archive-event.php on line 37
+[16-Nov-2019 23:12:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 26
+[16-Nov-2019 23:12:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 26
+[16-Nov-2019 23:12:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 26
+[16-Nov-2019 23:13:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 26
+[16-Nov-2019 23:32:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-event.php on line 27
+[16-Nov-2019 23:33:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-event.php on line 27
