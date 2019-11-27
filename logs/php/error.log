@@ -154,3 +154,4 @@ Stack trace:
 [16-Nov-2019 23:32:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-event.php on line 27
 [16-Nov-2019 23:33:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-event.php on line 27
 [26-Nov-2019 02:24:38 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-program.php on line 48
+[27-Nov-2019 01:37:14 UTC] PHP Parse error:  syntax error, unexpected 'get_the_title' (T_STRING), expecting ',' or ';' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-program.php on line 40

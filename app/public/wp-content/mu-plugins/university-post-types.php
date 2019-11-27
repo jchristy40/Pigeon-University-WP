@@ -37,8 +37,6 @@ function university_post_types(){
     // Professor post type
     register_post_type('professor', array(
         'supports' => array('title', 'editor'),
-        'rewrite' => array('slug' => 'professors'),
-        'has_archive' => true,
         'public' => true,
         'labels' => array(
             'name' => 'Professors',
