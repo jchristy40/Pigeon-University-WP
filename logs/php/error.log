@@ -186,3 +186,50 @@ Stack trace:
 [03-Dec-2019 01:45:43 UTC] PHP Parse error:  syntax error, unexpected 'Ymd' (T_STRING), expecting ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 19
 [03-Dec-2019 01:46:59 UTC] PHP Parse error:  syntax error, unexpected 'Ymd' (T_STRING), expecting ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 19
 [03-Dec-2019 01:47:40 UTC] PHP Parse error:  syntax error, unexpected 'Ymd' (T_STRING), expecting ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/front-page.php on line 19
+[29-Dec-2019 20:50:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-professor.php:6
+Stack trace:
+#0 /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php(98): include()
+#1 /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php(19): require_once('/Users/bird/Loc...')
+#2 /Users/bird/Local Sites/pigeon-university/app/public/index.php(17): require('/Users/bird/Loc...')
+#3 {main}
+  thrown in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/single-professor.php on line 6
+[29-Dec-2019 20:50:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 15
+[29-Dec-2019 21:03:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php on line 5
+[29-Dec-2019 21:04:35 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php on line 5
+[29-Dec-2019 21:04:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php on line 5 and exactly 1 expected in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php:3
+Stack trace:
+#0 /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php(5): pageBanner()
+#1 /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php(98): include('/Users/bird/Loc...')
+#2 /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php(19): require_once('/Users/bird/Loc...')
+#3 /Users/bird/Local Sites/pigeon-university/app/public/index.php(17): require('/Users/bird/Loc...')
+#4 {main}
+  thrown in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 3
+[29-Dec-2019 21:05:22 UTC] PHP Warning:  Use of undefined constant page_banner_subtitle - assumed 'page_banner_subtitle' (this will throw an Error in a future version of PHP) in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 8
+[29-Dec-2019 21:05:22 UTC] PHP Stack trace:
+[29-Dec-2019 21:05:22 UTC] PHP   1. {main}() /Users/bird/Local Sites/pigeon-university/app/public/index.php:0
+[29-Dec-2019 21:05:22 UTC] PHP   2. require() /Users/bird/Local Sites/pigeon-university/app/public/index.php:17
+[29-Dec-2019 21:05:22 UTC] PHP   3. require_once() /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php:19
+[29-Dec-2019 21:05:22 UTC] PHP   4. include() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php:98
+[29-Dec-2019 21:05:22 UTC] PHP   5. pageBanner() /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php:5
+[29-Dec-2019 21:06:03 UTC] PHP Warning:  Use of undefined constant page_banner_subtitle - assumed 'page_banner_subtitle' (this will throw an Error in a future version of PHP) in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 8
+[29-Dec-2019 21:06:03 UTC] PHP Stack trace:
+[29-Dec-2019 21:06:03 UTC] PHP   1. {main}() /Users/bird/Local Sites/pigeon-university/app/public/index.php:0
+[29-Dec-2019 21:06:03 UTC] PHP   2. require() /Users/bird/Local Sites/pigeon-university/app/public/index.php:17
+[29-Dec-2019 21:06:03 UTC] PHP   3. require_once() /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php:19
+[29-Dec-2019 21:06:03 UTC] PHP   4. include() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php:98
+[29-Dec-2019 21:06:03 UTC] PHP   5. pageBanner() /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php:6
+[29-Dec-2019 21:06:11 UTC] PHP Warning:  Use of undefined constant page_banner_subtitle - assumed 'page_banner_subtitle' (this will throw an Error in a future version of PHP) in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 8
+[29-Dec-2019 21:06:11 UTC] PHP Stack trace:
+[29-Dec-2019 21:06:11 UTC] PHP   1. {main}() /Users/bird/Local Sites/pigeon-university/app/public/index.php:0
+[29-Dec-2019 21:06:11 UTC] PHP   2. require() /Users/bird/Local Sites/pigeon-university/app/public/index.php:17
+[29-Dec-2019 21:06:11 UTC] PHP   3. require_once() /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php:19
+[29-Dec-2019 21:06:11 UTC] PHP   4. include() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php:98
+[29-Dec-2019 21:06:11 UTC] PHP   5. pageBanner() /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php:6
+[29-Dec-2019 21:07:24 UTC] PHP Warning:  Use of undefined constant page_banner_subtitle - assumed 'page_banner_subtitle' (this will throw an Error in a future version of PHP) in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 8
+[29-Dec-2019 21:07:24 UTC] PHP Stack trace:
+[29-Dec-2019 21:07:24 UTC] PHP   1. {main}() /Users/bird/Local Sites/pigeon-university/app/public/index.php:0
+[29-Dec-2019 21:07:24 UTC] PHP   2. require() /Users/bird/Local Sites/pigeon-university/app/public/index.php:17
+[29-Dec-2019 21:07:24 UTC] PHP   3. require_once() /Users/bird/Local Sites/pigeon-university/app/public/wp-blog-header.php:19
+[29-Dec-2019 21:07:24 UTC] PHP   4. include() /Users/bird/Local Sites/pigeon-university/app/public/wp-includes/template-loader.php:98
+[29-Dec-2019 21:07:24 UTC] PHP   5. pageBanner() /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/page.php:6
+[29-Dec-2019 21:15:14 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/bird/Local Sites/pigeon-university/app/public/wp-content/themes/pigeon-university-theme/functions.php on line 14
